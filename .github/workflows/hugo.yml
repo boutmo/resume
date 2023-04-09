@@ -16,5 +16,5 @@ jobs:
       with:
         branch: gh-pages
         repository-name: yourusername/my-minified-site
-        folder: public
+        folder: /
         token: ${{ secrets.GITHUB_TOKEN }}
